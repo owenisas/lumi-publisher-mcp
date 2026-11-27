@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-  "name": "io.github.owenisas/lumi-publisher",
+  "name": "com.owenisas.lumi/publisher",
   "description": "Approval-first social & video publishing for creators and AI agents. Drafts require human approval.",
   "repository": {
     "url": "https://github.com/owenisas/lumi-publisher-mcp",
