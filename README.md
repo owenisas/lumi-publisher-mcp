@@ -1,5 +1,7 @@
 # Lumi Publisher MCP Server
 
+[![Lumi Publisher MCP connector](https://glama.ai/mcp/connectors/com.owenisas.lumi/publisher/badges/score.svg)](https://glama.ai/mcp/connectors/com.owenisas.lumi/publisher)
+
 Approval-first video and social publishing for creators, teams, and AI agents.
 
 Agents upload media, stage drafts, inspect the calendar, manage webhooks, and read review-safe analytics. Nothing ever publishes until a human approves that exact post version (`v1`, `v2`, ...) inside [Lumi Publisher](https://app.lumi.owenisas.com).
