@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.owenisas/lumi-publisher",
+  "description": "Approval-first social & video publishing for creators and AI agents. Drafts require human approval.",
+  "repository": {
+    "url": "https://github.com/owenisas/lumi-publisher-mcp",
+    "source": "github"
+  },
+  "version": "0.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.lumi.owenisas.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer lumi_sk_... workspace API key (get one at https://app.lumi.owenisas.com/#developer or POST /v1/agents/register)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

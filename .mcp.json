@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "lumi-publisher": {
+      "type": "http",
+      "url": "https://app.lumi.owenisas.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${LUMI_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lumi-publisher-mcp"
+version = "0.2.0"
+description = "Approval-first social & video publishing MCP server for YouTube, TikTok, Bluesky, Telegram, Mastodon, Discord, Pinterest, and Meta."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+Homepage = "https://lumi.owenisas.com"
+Documentation = "https://lumi.owenisas.com/skill.md"
+Repository = "https://github.com/owenisas/lumi-publisher-mcp"
+
+[project.scripts]
+lumi-publisher-mcp = "lumi_publisher_mcp.server:main"
